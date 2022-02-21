@@ -1,0 +1,30 @@
+header {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.title {
+  letter-spacing: 0.6rem;
+  margin-left: -0.6rem;
+}
+
+.infos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 20rem;
+}
+.number {
+  flex: 3;
+}
+.name {
+  flex: 4;
+}
+.city {
+  flex: 3;
+}
+.date {
+  flex: 2;
+}

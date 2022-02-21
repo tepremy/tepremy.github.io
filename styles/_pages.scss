@@ -1,0 +1,35 @@
+h2 {
+  text-align: center;
+}
+
+.image-gallery {
+  @include flex(space-between, flex-start, row, nowrap);
+  max-width: 90vw;
+  padding: 1rem 0rem;
+  img {
+    padding: 1rem;
+    max-height: 70vh;
+  }
+  .gallery1 {
+    min-width: 0;
+  }
+  .gallery2 {
+    min-width: 0;
+  }
+  .gallery3 {
+    min-width: 0;
+  }
+}
+
+.infos-page {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 5rem;
+}
+
+hr.solid-page {
+  border-top: 2px solid $gray-text;
+  width: 100%;
+  opacity: 30%;
+}

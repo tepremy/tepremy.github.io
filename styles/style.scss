@@ -1,0 +1,19 @@
+$header1: 8rem;
+$header2: 6rem;
+$text: 1.6rem;
+$background-color: #edecec;
+$gray-text: #444444;
+$font: "Roboto", sans-serif;
+
+@mixin flex($justify, $align, $direction, $wrap) {
+  display: flex;
+  justify-content: $justify;
+  align-items: $align;
+  flex-direction: $direction;
+  flex-wrap: $wrap;
+}
+
+@import "global";
+@import "nav";
+@import "main";
+@import "pages";

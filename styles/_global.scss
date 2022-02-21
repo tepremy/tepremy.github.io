@@ -1,0 +1,54 @@
+/* global styles */
+* {
+  margin: 0px;
+  padding: 0px;
+  border-style: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: $font;
+  width: 70%;
+  margin: auto;
+  background-color: $background-color;
+}
+
+h1 {
+  font-size: $header1;
+  color: $gray-text;
+  font-weight: 200;
+}
+h2 {
+  font-size: $header2;
+  color: $gray-text;
+  font-weight: 200;
+}
+
+li,
+button,
+label,
+input,
+a,
+p {
+  font-size: $text;
+  color: $gray-text;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: $gray-text;
+}
+
+/* Solid border */
+hr.solid {
+  border-top: 2px solid $gray-text;
+  width: 90%;
+  opacity: 30%;
+}
